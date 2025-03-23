@@ -22,6 +22,3 @@ def get_transcript(video_id):
             "message": str(e),
             "video_id": video_id
         }), 400
-
-if __name__ == "__main__":
-    app.run(debug=True)
