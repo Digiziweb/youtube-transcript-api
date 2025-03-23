@@ -22,3 +22,6 @@ def get_transcript(video_id):
             "message": str(e),
             "video_id": video_id
         }), 400
+
+# Required for Gunicorn to find the app
+app = app
