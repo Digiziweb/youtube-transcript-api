@@ -23,5 +23,5 @@ def get_transcript(video_id):
             "video_id": video_id
         }), 400
 
-# Required for Gunicorn to find the app
+# 👇 Ajoute cette ligne à la fin du fichier pour que gunicorn le trouve
 app = app
